@@ -1,5 +1,11 @@
 # PaintWorks
 
+## Disclaimer
+
+The original repo is [here](https://github.com/zsnjuts/PaintWorks). I just add support for Linux thun can run in **Ubuntu 20.04**.
+
+
+
 系统使用说明书[在这里](docs/151220162_系统使用说明书.pdf)
 系统技术报告[在这里](docs/151220162_系统技术报告.pdf)
 
@@ -108,3 +114,4 @@
   应该让QMdiSubWindow在关闭时delete掉GLWidget，可能需要重写QMdiSubWindow的` virtual void	closeEvent(QCloseEvent * closeEvent)` 函数，最好是将相关信号关联到Mainwindow的一个槽函数，省得再写QMdiSubWindow了。
 
 * ~~椭圆刚生成的时候handle有问题~~ 已解决
+

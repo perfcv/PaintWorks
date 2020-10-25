@@ -1,5 +1,6 @@
 #include "Polygon.h"
 #include <list>
+#include <math.h>
 #include <cassert>
 #include <algorithm>
 #include <functional>
